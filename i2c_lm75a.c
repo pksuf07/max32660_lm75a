@@ -129,9 +129,11 @@ int main(void)
 	lm75a_cfg.cfgchar=0x10;
 
 	//-- lm75a id string (0xA1) ------------------------------------------
-	get_id(); 							//-- get board id ----------------
+	get_id(); 				//-- get board id ----------------
+	/*
 	lm75a_cfg.cfgchar = get_config();	//-- get current configuration ---
 	printf("lm75a_cfg.cfgchar : 0x%02x\n", lm75a_cfg.cfgchar);
+	*/
 
 	//-- init lm75a ------------------------------------------------------
 	measurement_loop();	//-- measurement loop
