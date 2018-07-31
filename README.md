@@ -37,7 +37,8 @@ There is I2C sample code comes with i2c library in the maxim toolchains. However
 
 # Things To Do
 
-* First of all, I need to figure more on asynchorous read/wirte function in MAXIM I2C library.
+* First of all, I need to figure out more on asynchorous read/wirte function in MAXIM I2C library.
 * Figure out how to use SPI library of MAXIM library. 
 * Figure out how to put SLEEP and/or DEEPSLEEP mode the MAX32660 in-between the measurement.
+* My target project is to make a simple temperature-sensor-equipped LoRaWAN end-device.
 
