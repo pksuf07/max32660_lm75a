@@ -27,7 +27,7 @@
 /*
 #define I2C_MASTER	    MXC_I2C0	//-- I2C register for master, max32660.h
 #define I2C_MASTER_IDX	0			//-- I2C register 0
-#define I2C_SLAVE_ADDR	(0x22 << 1)		//-- LM75A Temperature Sensor
+#define I2C_SLAVE_ADDR	(0x48 << 1)		//-- LM75A Temperature Sensor
 */
 
 i2c_req_t 	i2c_req;	//-- request
