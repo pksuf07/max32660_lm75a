@@ -16,6 +16,9 @@ Note: This code set is not completed yet. However, you can use this code as a st
 ## MAX32660-EVKIT (Evaluation Kit for the MAX32660)
 
 https://www.maximintegrated.com/en/products/microcontrollers/MAX32660-EVKIT.html
+https://www.maximintegrated.com/en/products/microcontrollers/MAX32660.html
+https://os.mbed.com/platforms/MAX32625PICO/
+https://os.mbed.com/teams/MaximIntegrated/wiki/MAX32625PICO-Firmware-Updates
 
 * MAX32660-EVKIT Board
 * MAX3265PICO Debug Adapter
@@ -29,4 +32,7 @@ http://www.ftdichip.com/Support/Documents/DataSheets/Modules/DS_UMFT201_220_230X
 
 ##  FTDI UMFT201XB, I2C Slave USB Dongle or  FTDI’s FT201XQ Breakout Board
 
-There is I2C sample code comes with i2c library in the maxim toolchains. However, I wasn't able start immeidately. So, I decided to use FTDI FT201XQ breakout board with D2xx library. With this breakout board, I was able to power the max32660 board and get immediately result as I programming. I will add more on my experience later.
+There is I2C sample code comes with i2c library in the maxim toolchains. However, I wasn't able start immeidately. So, I decided to use FTDI FT201XQ breakout board with D2xx library. With this breakout board, I was able to power the max32660 board and get immediately result as I programming. I will add more on my experience later. One can power through MAX3265PICO Debug Adapter (but you need to change the default factory firmware "max32625pico_daplink.bin", Default factory image for MAX32625PICO board with "max32625pico_max32660_power_out.bin", Programs MAX32660 applies 3.3V to VIO! For details, please refer to above link.
+
+
+
